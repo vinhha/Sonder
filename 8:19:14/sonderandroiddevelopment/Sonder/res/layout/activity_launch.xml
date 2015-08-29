@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="50dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thesonderapp.sonder.MainActivity" >
+
+     <TextView
+        android:id="@+id/launchLogInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/LaunchSignUpButton"
+        android:layout_alignBottom="@+id/LaunchSignUpButton"
+        android:layout_alignParentLeft="true"
+        android:text="@string/login_button_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/LaunchSignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="62dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/sign_up"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</RelativeLayout>

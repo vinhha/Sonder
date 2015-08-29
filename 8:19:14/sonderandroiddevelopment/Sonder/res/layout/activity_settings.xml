@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logout_label"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/updateBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="@string/update_bio_label" 
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/editProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/updateBio"
+        android:layout_marginTop="40dp"
+        android:text="@string/edit_profile_string"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/editSocialMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editProfile"
+        android:layout_marginTop="40dp"
+        android:text="@string/edit_social_media_string"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editSocialMedia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/terms_and_conditions"
+        android:textSize="16sp" />
+
+</RelativeLayout>

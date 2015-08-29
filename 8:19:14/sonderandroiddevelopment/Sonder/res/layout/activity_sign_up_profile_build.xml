@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:ems="10" >
+
+    <ImageView
+        android:id="@+id/SignUpCoverPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white" />
+
+    <ImageView
+        android:id="@+id/SignUpProfilePhoto"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_alignBottom="@+id/SignUpCoverPhoto"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="14dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profiledefault" />
+
+    <EditText
+        android:id="@+id/schoolField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/SignUpCoverPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    	android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:ems="10"
+        android:hint="@string/school" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/hometownField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    	android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:ems="10"
+        android:hint="@string/hometown" />
+
+    <TextView
+        android:id="@+id/relationshipStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hometownField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/relationship_status"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relationshipStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/private_label" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/taken_label" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/single_label" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/continue_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/addCoverPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addProfilePhoto"
+        android:layout_alignBottom="@+id/addProfilePhoto"
+        android:layout_alignRight="@+id/radioGroup1"
+        android:layout_marginRight="16dp"
+        android:text="@string/cover_photo"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/addProfilePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SignUpProfilePhoto"
+        android:layout_alignLeft="@+id/schoolField"
+        android:layout_marginBottom="52dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/add_photo"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

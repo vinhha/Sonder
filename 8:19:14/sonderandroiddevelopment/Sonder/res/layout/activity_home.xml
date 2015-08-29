@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:ems="10" >
+
+    <ImageView
+        android:id="@+id/SignUpCoverPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white" />
+
+    <TextView
+        android:id="@+id/home_total_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_total_compliments"
+        android:layout_centerHorizontal="true"
+        android:text="@string/profile_total"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/home_total_compliments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/continueButton"
+        android:layout_alignRight="@+id/continueButton"
+        android:layout_below="@+id/continueButton"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/default_compliments"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/twitterButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/home_total_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/facebookButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/twitterButton"
+        android:layout_marginRight="40dp"
+        android:layout_toLeftOf="@+id/twitterButton"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/instagramButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/twitterButton"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/twitterButton"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/instagram" />
+
+    <TextView
+        android:id="@+id/home_thoughts_compliments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home_total_compliments"
+        android:layout_alignBottom="@+id/home_total_compliments"
+        android:layout_alignLeft="@+id/home_thoughts_label"
+        android:layout_alignRight="@+id/facebookButton"
+        android:gravity="center"
+        android:text="@string/default_compliments"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/home_thoughts_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twitterButton"
+        android:layout_alignLeft="@+id/facebookButton"
+        android:text="@string/profile_thoughts"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/home_profile_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/instagramButton"
+        android:layout_alignRight="@+id/instagramButton"
+        android:layout_below="@+id/home_thoughts_compliments"
+        android:layout_marginLeft="10dp"
+        android:text="@string/profile_profile"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/home_school_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/continueButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/SignUpProfilePhoto"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="@string/profile_school_age_label" />
+
+    <TextView
+        android:id="@+id/home_hometown_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/home_school_age"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/home_school_age"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="@string/profile_hometown_label"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/home_status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SignUpProfilePhoto"
+        android:layout_alignLeft="@+id/home_hometown_label"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/profile_status_label"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/home_profile_compliments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/home_total_compliments"
+        android:layout_alignLeft="@+id/instagramButton"
+        android:layout_alignRight="@+id/home_profile_label"
+        android:gravity="center"
+        android:text="@string/default_compliments"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/SignUpProfilePhoto"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="36dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profiledefault" />
+
+    <TextView
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignUpCoverPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/refresh_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   
+</RelativeLayout>

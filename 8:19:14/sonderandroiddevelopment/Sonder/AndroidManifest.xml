@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thesonderapp.sonder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+     <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sonder" 
+        android:name="SonderApplication"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <meta-data android:name="com.google.android.gms.version"
+          android:value="@integer/google_play_services_version"/>
+         <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".LaunchActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:parentActivityName=".LaunchActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LaunchActivity"
+            android:label="@string/title_activity_launch" 
+             android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".SonderApplication"
+            android:label="@string/title_activity_launch" 
+             android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" 
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".InboxActivity"
+            android:label="@string/title_activity_inbox" 
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PostActivity"
+            android:label="@string/title_activity_post" 
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SectionsPagerAdapter"
+            android:label="@string/title_activity_pager" 
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" 
+            android:parentActivityName=".HomeActivity"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SonderActivity"
+            android:label="@string/title_activity_sonder" 
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ThoughtsActivity"
+            android:label="@string/title_activity_thoughts" 
+             android:screenOrientation="portrait" >
+        </activity> 
+        <activity
+            android:name=".SignUpProfileActivity"
+            android:label="@string/title_activity_sign_up_profile" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SignUpAboutActivity"
+            android:label="@string/title_activity_sign_up_about" 
+            android:screenOrientation="portrait" >
+        </activity> 
+         <activity
+            android:name=".SignUpSocialMediaActivity"
+            android:label="@string/title_activity_sign_up_social_media" 
+            android:screenOrientation="portrait" >
+        </activity> 
+        <activity
+            android:name=".ComposeActivityThoughts"
+            android:label="@string/title_activity_compose" 
+            android:screenOrientation="portrait" >
+        </activity> 
+        <activity
+            android:name=".ComposeActivityPost"
+            android:label="@string/title_activity_compose" 
+            android:screenOrientation="portrait" >
+        </activity> 
+          <activity
+            android:name=".EditProfileActivity"
+            android:label="@string/title_activity_edit_profile" 
+            android:screenOrientation="portrait" >
+        </activity> 
+         <activity
+            android:name=".EditAboutActivity"
+            android:label="@string/title_activity_edit_about" 
+            android:screenOrientation="portrait" >
+        </activity> 
+         <activity
+            android:name=".EditSocialMediaActivity"
+            android:label="@string/title_activity_edit_social_media" 
+            android:screenOrientation="portrait" >
+        </activity> 
+        <activity
+            android:name=".TermsActivity"
+            android:label="@string/title_activity_terms" 
+            android:screenOrientation="portrait" >
+        </activity> 
+    </application>
+
+</manifest>

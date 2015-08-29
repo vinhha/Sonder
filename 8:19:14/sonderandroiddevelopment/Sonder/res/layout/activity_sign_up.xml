@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.thesonderapp.sonder.MainActivity" >
+
+       <EditText
+        android:id="@+id/lastnameField"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstnameField"
+        android:layout_alignBottom="@+id/firstnameField"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/firstnameField"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailField1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailField2"
+        android:layout_below="@+id/lastnameField"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/emailField2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firstnameField"
+        android:layout_below="@+id/emailField1"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/reenter_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordField1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailField2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/new_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passwordField2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordField1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/reenter_password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="@string/sign_up"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordField2"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="14dp"
+        android:text="@string/birthday"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/birthdayField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/logOutButton"
+        android:layout_alignBottom="@+id/logOutButton"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/birthday_hint"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/passwordField2"
+        android:layout_marginTop="14dp"
+        android:text="@string/gender"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/birthdayField"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+       
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+
+
+</RelativeLayout>

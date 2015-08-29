@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ANY PARTICIPATION IN THIS APP WILL CONSTITUTE ACCEPTANCE OF THIS AGREEMENT. IF YOU DO NOT AGREE TO ABIDE BY THE FOLLOWING, DO NOT USE THIS APP.
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        Terms and Conditions:
+        
+        
+        
+        
+        
+        
+        
+        
+        1.) All persons must be 17 years of age or older.
+        
+        
+        
+        
+        
+        
+        
+        
+        2.) Sonder does not endorse the use of obscene or offensive language/remarks. Such posts will be removed.
+        
+        
+        
+        
+        
+        
+        
+        
+        3.) No hateful/discriminatory posts.
+        
+        
+        
+        
+        
+        
+        
+        
+        4.) No promoting illegal actions or anything illegal in its nature.
+        
+        
+        
+        
+        
+        
+       
+       
+       
+        5.) Each user is liable for the information he/she discloses." />
+
+</LinearLayout>

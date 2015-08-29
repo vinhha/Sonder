@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sonder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="birthday_hint">MM/DD/YYYY</string>
+	<string name="first_name">First Name</string>
+	<string name="last_name">Last Name</string>
+	<string name="new_password">New Password</string>
+	<string name="password_hint">New Password</string>
+	<string name="reenter_email">Re-Enter Email</string>
+	<string name="reenter_password">Re-Enter Password</string>
+	<string name="username_hint">Your Email</string>
+	<string name="your_email">Your Email</string>
+	<string name="birthday">Birthday</string>
+	<string name="empty_home_label">Create a profile here!</string>
+	<string name="empty_inbox_label">You currently have no conversations.</string>
+	<string name="empty_post_label">What\'s on your mind?</string>
+	<string name="empty_sonder_label">There are no people to display. Ask your friends to join the Sonder community!</string>
+	<string name="empty_thoughts_label">There are no thoughts to display. Ask your friends to join the Sonder community!</string>
+	<string name="female">Female</string>
+	<string name="male">Male</string>
+	<string name="login_button_label">Log In</string>
+	<string name="gender">Gender</string>
+	<string name="sign_up">Sign Up</string>
+	<string name="title_activity_launch">LaunchActivity</string>
+	<string name="title_activity_settings">SettingsActivity</string>
+	<string name="title_activity_login">LoginActivity</string>
+	<string name="title_activity_compose">ComposeActivity</string>
+	<string name="title_activity_sign_up">SignUpActivity</string>
+	<string name="title_activity_edit_about">EditAboutActivity</string>
+	<string name="title_activity_edit_social_media">EditSocialMediaActivity</string>
+	<string name="title_activity_edit_profile">EditProfileActivity</string>
+	<string name="login_error_nothing">Make sure you fill out all of the information correctly.</string>
+	<string name="login_error_title">Oops</string>
+	<string name="signup_error_nothing">Make sure you fill out all of the information correctly.</string>
+	<string name="signup_error_title">Oops</string>
+	<string name="bio_error_nothing">Make sure you enter a bio. You can always edit it later.</string>
+	<string name="title_section1">Thoughts</string>
+	<string name="title_section2">Sonder</string>
+	<string name="title_section3">Post</string>
+	<string name="title_section4">Inbox</string>
+	<string name="title_section5">Home</string>
+	<string name="title_activity_home">HomeActivity</string>
+	<string name="title_activity_inbox">InboxActivity</string>
+	<string name="title_activity_pager">SectionsPagerActivity</string>
+	<string name="title_activity_post">PostActivity</string>
+	<string name="title_activity_sonder">SonderActivity</string>
+	<string name="title_activity_terms">TermsActivity</string>
+	<string name="title_activity_thoughts">ThoughtsActivity</string>
+	<string name="title_activity_sign_up_profile">SignUpProfileActivity</string>
+	<string name="title_activity_sign_up_about">SignUpAboutActivity</string>
+	<string name="title_activity_sign_up_social_media">SignUpSocialMediaActivity</string>
+	<string name="relationship_status">Relationship Status</string>
+	<string name="private_label">Private</string>
+	<string name="taken_label">Taken</string>
+	<string name="single_label">Single</string>
+	<string name="continue_label">Continue</string>
+	<string name="add_photo">+ add photo</string>
+	<string name="cover_photo">+ cover photo</string>
+	<string name="bio_hint">Write a short description for your profile.</string>
+	<string name="about_me">About Me:</string>
+	<string name="finish">Finish</string>
+	<string name="twitter">Twitter</string>
+	<string name="instagram">Instagram</string>
+	<string name="connect_facebook">Connect Facebook</string>
+	<string name="connected_facebook">Connected Facebook</string>
+	
+		
+	
+	
+	
+	
+	 <string name="abc_action_mode_done" msgid="4076576682505996667">"Hotovo"</string>
+    <string name="abc_action_bar_home_description" msgid="4600421777120114993">"Přejít na plochu"</string>
+    <string name="abc_action_bar_up_description" msgid="1594238315039666878">"Přejít nahoru"</string>
+    <string name="abc_action_menu_overflow_description" msgid="3588849162933574182">"Více možností"</string>
+    <string name="abc_searchview_description_search" msgid="8264924765203268293">"Hledat"</string>
+    <string name="abc_searchview_description_query" msgid="2550479030709304392">"Vyhledávací dotaz"</string>
+    <string name="abc_searchview_description_clear" msgid="3691816814315814921">"Smazat dotaz"</string>
+    <string name="abc_searchview_description_submit" msgid="8928215447528550784">"Odeslat dotaz"</string>
+    <string name="abc_searchview_description_voice" msgid="893419373245838918">"Hlasové vyhledávání"</string>
+    <string name="abc_activitychooserview_choose_application" msgid="2031811694353399454">"Vybrat aplikaci"</string>
+    <string name="abc_activity_chooser_view_see_all" msgid="7468859129482906941">"Zobrazit vše"</string>
+    <string name="abc_shareactionprovider_share_with_application" msgid="7165123711973476752">"Sdílet pomocí %s"</string>
+    <string name="abc_shareactionprovider_share_with" msgid="3421042268587513524">"Sdílet pomocí"</string>
+    <string name="school">School Abbreviation</string>
+    <string name="hometown">Hometown</string>
+    <string name="logout_label">Log Out</string>
+    <string name="enter_twitter_username">Enter Twitter Username</string>
+    <string name="enter_instagram_username">Enter Instagram Username</string>
+    <string name="refresh_label">REFRESH</string>
+    <string name="profile_thoughts">Thoughts</string>
+    <string name="profile_total">Total</string>
+    <string name="profile_profile">Profile</string>
+    <string name="default_compliments">0</string>
+    <string name="profile_school_age_label">SCHOOL, AGE</string>
+    <string name="profile_hometown_label">HOMETOWN</string>
+    <string name="profile_status_label">Status</string>
+    <string name="new_label">New</string>
+    <string name="new_post">New Post:</string>
+    <string name="compose_hint">What\'s on your mind?</string>
+    <string name="done_label">Done</string>
+    <string name="update_bio_label">Update Bio</string>
+    <string name="edit_profile_string">Edit Profile</string>
+    <string name="edit_social_media_string">Edit Social Media</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+
+</resources>

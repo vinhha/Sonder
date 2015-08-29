@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.thesonderapp.sonder.MainActivity" >
+
+  
+    
+    <item android:id="@+id/menu_thoughts"
+		 android:icon="@drawable/message"
+		 android:title=""
+         android:orderInCategory="1"
+        android:showAsAction="always"/>
+       	<item android:id="@+id/menu_sonder"
+ 		android:icon="@drawable/group"
+ 		android:title=""
+         android:orderInCategory="2"
+        android:showAsAction="always"/>
+    	<item android:id="@+id/menu_post"
+         android:icon="@drawable/write"
+         android:title=""
+        android:orderInCategory="3"
+        android:showAsAction="always"/>
+       	<item android:id="@+id/menu_inbox"
+         android:icon="@drawable/email"
+         android:title=""
+        android:orderInCategory="4"
+        android:showAsAction="always"/>
+        <item android:id="@+id/menu_home"
+         android:icon="@drawable/home"
+         android:title=""
+        android:orderInCategory="5"
+        android:showAsAction="always"/>
+
+</menu>

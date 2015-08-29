@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+  
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" > 
+
+       
+        <ToggleButton
+            android:id="@+id/newButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:text="@string/new_label"
+            android:textOff="New"
+            android:textOn="New" 
+            android:checked="true"/>
+
+        <ToggleButton
+            android:id="@+id/guysButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:text="ToggleButton"
+            android:textOff="Guys"
+            android:textOn="Guys" />
+
+        <ToggleButton
+            android:id="@+id/girlsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:text="ToggleButton"
+            android:textOff="Girls"
+            android:textOn="Girls" />
+
+        <ToggleButton
+            android:id="@+id/topButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:text="ToggleButton"
+            android:textOff="Top"
+            android:textOn="Top" />
+    </RadioGroup>
+
+</RelativeLayout>

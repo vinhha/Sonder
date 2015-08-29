@@ -1,0 +1,58 @@
+1408235555197	Copy compilation unit
+1408237534140	Rename field 'mSignUpTextView'
+1408238039981	Copy compilation unit
+1408238081736	Copy file
+1408238812272	Extracts string 'null' into R.string.enter_twitter_username
+1408238831545	Extracts string 'null' into R.string.enter_instagram_username
+1408239009089	Rename field 'mContinueButton'
+1408241756702	Copy file
+1408241775333	Delete element
+1408241793870	Copy file
+1408241857658	Delete element
+1408336221538	Copy file
+1408336235101	Copy file
+1408336244215	Copy file
+1408336255172	Copy file
+1408336263206	Copy file
+1408339907570	Rename resource 'activity_home.xml'
+1408339936273	Copy file
+1408340053995	Extracts string 'null' into R.string.refresh_label
+1408341161305	Extracts string 'null' into R.string.profile_thoughts
+1408341249598	Extracts string 'null' into R.string.profile_total
+1408341294933	Extracts string 'null' into R.string.profile_profile
+1408341379892	Extracts string 'null' into R.string.default_compliments
+1408342237546	Extracts string 'null' into R.string.profile_school_age_label
+1408342281337	Extracts string 'null' into R.string.profile_hometown_label
+1408342369687	Extracts string 'null' into R.string.profile_status_label
+1408342985938	Copy compilation unit
+1408343096403	Copy file
+1408343955387	Copy file
+1408347214389	Rename resource 'home_action_bar.xml'
+1408347239123	Copy file
+1408348263961	Copy file
+1408399394316	Copy file
+1408399797066	Copy file
+1408400355941	Extracts string 'null' into R.string.new_label
+1408401953996	Copy file
+1408401986262	Delete element
+1408402007433	Rename resource 'activity_thoughts_feed.xml'
+1408406176210	Copy file
+1408406200264	Extracts string 'null' into R.string.new_post
+1408406224922	Extracts string 'null' into R.string.compose_hint
+1408406247470	Extracts string 'null' into R.string.done_label
+1408406285175	Copy compilation unit
+1408407615586	Rename type 'ComposeActivity'
+1408407626808	Copy compilation unit
+1408407764721	Copy file
+1408407775059	Copy file
+1408407848424	Rename resource 'filter_compose_action_bar.xml'
+1408408131614	Copy file
+1408408306351	Copy file
+1408408312981	Copy file
+1408512592993	Copy compilation unit
+1408512930320	Copy compilation unit
+1408513030068	Copy compilation unit
+1408513418591	Extracts string 'null' into R.string.update_bio_label
+1408513440048	Extracts string 'null' into R.string.edit_profile_string
+1408513464342	Extracts string 'null' into R.string.edit_social_media_string
+1408516305362	Extracts string 'null' into R.string.terms_and_conditions
